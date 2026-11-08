@@ -1,0 +1,59 @@
+
+/*TOP DESTINATIONS CARDS*/
+.destinations{
+   padding: 20px 30px;
+   background: white;
+   text-align: center;
+}
+
+.title-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.title-row h2{
+    color: #3b1a5e;
+    font-size: 28px;
+}
+
+.line{
+    height: 3px;
+    width: 220px;
+    background: #3b1a5e;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card img{
+    width: 300px;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-text{
+    background: #3b1a5e;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 12px 5px;
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
